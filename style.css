@@ -1,0 +1,60 @@
+html {
+    cursor: none;
+
+}
+
+
+body {
+    margin: 0;
+
+}
+
+.game {
+
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.player {
+    z-index: 3;
+    position: absolute;
+    background-image: url(./img/vessel.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bullet {
+    z-index: 5;
+    position: absolute;
+    size: 2px;
+    background-color: blue;
+}
+
+.enemy1 {
+    position: absolute;
+    background-image: url(./img/enemy.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.enemy2 {
+    position: absolute;
+    background-image: url(./img/meteorite.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.score {
+    font-size: 50px;
+    margin-top: 0;
+    margin-left: 15px;
+
+}
